@@ -13,7 +13,7 @@ variables:
   dockerRegistryServiceConnection: '4a1abfec-cc4b-4a9c-b9ab-b338b5ba2c83'
   imageRepository: 'cccdc'
   containerRegistry: 'cccdcireg.azurecr.io'
-  dockerfilePath: '**/Dockerfile'
+  dockerfilePath: '**/cclab5/Dockerfile'
   tag: '$(Build.BuildId)'
 
   # Agent VM image name
